@@ -1,0 +1,17 @@
+{
+  "name": "restaurants",
+  "version": "1.0.0",
+  "description": "provide html, styles, scripts to express",
+  "main": "app.js",
+  "scripts": {
+      "start": "nodemon app.js"
+  },
+  "author": "jina",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
