@@ -1,0 +1,34 @@
+[
+    {
+        "id": "r1",
+        "name": "res1",
+        "address": "street 1",
+        "cuisine": "Korean",
+        "website": "https://res1.com",
+        "description": "I'm hungry"
+    },
+    {
+        "id": "r2",
+        "name": "res2",
+        "address": "street 2",
+        "cuisine": "German",
+        "website": "https://res2.com",
+        "description": "close to my house"
+    },
+    {
+        "id": "r3",
+        "name": "res3",
+        "address": "street 3",
+        "cuisine": "Japanese",
+        "website": "https://res3.com",
+        "description": "popular"
+    },
+    {
+        "name": "res4",
+        "address": "street 4",
+        "cuisine": "Chinese",
+        "website": "https://res4.com",
+        "description": "to test if uuid works",
+        "id": "1e3d8970-3298-4bde-a836-de5b76c21afa"
+    }
+]

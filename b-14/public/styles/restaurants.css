@@ -1,0 +1,59 @@
+main {
+    max-width: 40rem;
+  }
+  
+  #restaurants-list {
+    list-style: none;
+    margin: 2rem 0;
+    padding: 0;
+  }
+  
+  .restaurant-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: rgb(0, 100, 255);
+    color: white;
+    text-align: left;
+  }
+  
+  .restaurant-item h2 {
+    font-family: 'Roboto Condensed', 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    margin: 0.25rem 0;
+  }
+  
+  .restaurant-item p {
+    margin: 0.2rem 0;
+    color: rgb(174, 206, 254);
+  }
+  
+  .restaurant-meta {
+    margin-bottom: 0.5rem;
+  }
+  
+  .restaurant-meta p {
+    color: white;
+  }
+  
+  .restaurant-actions {
+    margin-top: 1rem;
+    text-align: right;
+  }
+  
+  .restaurant-actions a, .btn { /* 버튼 스타일링 추가 */
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(0, 100, 255);
+    text-decoration: none;
+    border: none; /* 버튼 스타일링 추가 */
+  }
+  
+  .restaurant-actions a:hover,
+  .restaurant-actions a:active,
+  .btn:hover { /* 버튼 스타일링 추가 */
+    background-color: rgba(174, 206, 254, 0.5);
+    color: white;
+  }
